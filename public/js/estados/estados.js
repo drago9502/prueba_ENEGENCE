@@ -1,7 +1,7 @@
 $('#tablaEstados').DataTable({
     "ajax": "/mostrarEstados",
     "type": "get",
-    "order": [[1, "asc"]],
+    "order": [[0, "asc"]],
     "responsive": true,
     "fixedHeader": true,
     "columns": [
